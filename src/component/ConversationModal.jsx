@@ -1,10 +1,8 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 import { useContacts } from "../Contexts/ContactsProvider";
 import { useConversations } from "../Contexts/conversationProvider";
 function ConversationModal({ closeModal }) {
-  const nameRef = useRef();
-  const idRef = useRef();
   const { contacts } = useContacts();
   const { creatConversation } = useConversations();
 
