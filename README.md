@@ -1,1 +1,1 @@
-whatsapp chat clone using react and hooks contextapi socket.io 
+whatsapp chat clone using react hooks contextapi and socket.io 
